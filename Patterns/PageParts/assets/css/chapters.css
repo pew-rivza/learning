@@ -1,0 +1,70 @@
+.pattern-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 266px);
+}
+
+.pattern-card + .pattern-card {
+    margin-top: 60px;
+}
+
+.name-block {
+    grid-area: name;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.description-block {
+    grid-area: description;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.example-block {
+    grid-area: example;
+    padding: 10px 15px 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diagram-block {
+    grid-area: diagram;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diagram-block img {
+    width: 80%;
+}
+
+.realisation-block {
+    grid-area: realisation;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+}
+
+.plus-minus-block {
+    grid-area: plus-minus;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px 10px 0;
+}
+
+.decoration-block {
+    grid-area: decoration;
+}
+
+.decoration-block img {
+    width: 100%;
+    height: 100%;
+}

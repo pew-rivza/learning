@@ -1,0 +1,6 @@
+#strategy-pattern {
+    grid-template-areas:
+            "diagram    diagram     decoration"
+            "plus-minus name        description"
+            "example    realisation realisation"
+}

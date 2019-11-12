@@ -1,0 +1,12 @@
+#observer-pattern {
+    grid-template-areas:
+    "plus-minus  diagram     diagram"
+    "description name        example"
+    "realisation realisation decoration"
+}
+
+.weather-indication {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}

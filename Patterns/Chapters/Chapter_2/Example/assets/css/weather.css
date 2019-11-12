@@ -1,0 +1,21 @@
+.weather-header {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.weather-img {
+    width: 160px;
+    margin: 20px 0;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 15px;
+}
+
+.weather-container > div {
+    background: #BED3C3;
+    padding: 20px;
+}

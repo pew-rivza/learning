@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #F7F7F7;
+    margin: 0;
+}
+
+.content-container {
+    margin: auto;
+    width: 800px;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.menu-item {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 105px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.menu-item:hover {
+    font-size: 17px;
+}
+
+.selected-item-underline {
+    border-top: 2px dashed #F7F7F7;
+    height: 0;
+    margin-top: 10px;
+}
+
+.chapters-container {
+    margin-top: 90px;
+}
+
+.pattern-type-container {
+    display: none;
+}
+
+/*---------------------- Цвета ----------------------*/
+
+.main-back-1 {
+    background: #E73F22;
+}
+
+.main-back-2 {
+    background: #000;
+}
+
+.main-back-3 {
+    background: #DD8C89;
+}
+
+.additional-back-1 {
+    background: #EFEFEF;
+}
+
+.additional-back-2 {
+    background: #E9E9E9;
+}
+
+.additional-back-3 {
+    background: #DEDEDE;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.black-text {
+    color: #000;
+}
+
+.red-text {
+    color: #E73F22;
+}
+
+/*------------------- Цвета.Конец -------------------*/
