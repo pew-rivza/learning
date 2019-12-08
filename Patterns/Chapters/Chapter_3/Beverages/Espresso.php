@@ -17,6 +17,6 @@ class Espresso extends Beverage
 
     public function cost(): float
     {
-        return 1.99;
+        return 130;
     }
 }

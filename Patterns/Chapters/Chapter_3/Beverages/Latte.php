@@ -17,6 +17,6 @@ class Latte extends Beverage
 
     public function cost(): float
     {
-        return 2.99;
+        return 240;
     }
 }

@@ -17,6 +17,6 @@ class Americano extends Beverage
 
     public function cost(): float
     {
-        return 0.79;
+        return 120;
     }
 }

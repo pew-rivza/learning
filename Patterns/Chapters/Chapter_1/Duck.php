@@ -12,7 +12,7 @@ abstract class Duck
     private $quack_way;
 
     abstract public function display();
-    
+
     public function swim() {
          echo "Я плаваю";
     }

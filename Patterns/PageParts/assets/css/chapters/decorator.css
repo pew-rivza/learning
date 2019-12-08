@@ -1,0 +1,6 @@
+#decorator-pattern {
+    grid-template-areas:
+            "plus-minus  example     diagram"
+            "description name        diagram"
+            "realisation realisation decoration"
+}

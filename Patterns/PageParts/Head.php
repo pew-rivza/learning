@@ -12,8 +12,10 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i,900,900i&display=swap&subset=cyrillic-ext" rel="stylesheet">
     <link href="PageParts/assets/css/main.css?<?= time();?>" rel="stylesheet">
     <link href="PageParts/assets/css/chapters.css?<?= time();?>" rel="stylesheet">
-    <link href="PageParts/assets/css/chapters/behavioral/strategy.css?<?= time();?>" rel="stylesheet">
-    <link href="PageParts/assets/css/chapters/behavioral/observer.css?<?= time();?>" rel="stylesheet">
+    <link href="PageParts/assets/css/chapters/strategy.css?<?= time();?>" rel="stylesheet">
+    <link href="PageParts/assets/css/chapters/observer.css?<?= time();?>" rel="stylesheet">
+    <link href="PageParts/assets/css/chapters/decorator.css?<?= time();?>" rel="stylesheet">
+    <link href="PageParts/assets/css/chapters/factory.css?<?= time();?>" rel="stylesheet">
 
     <script
             src="https://code.jquery.com/jquery-3.4.1.min.js"

@@ -6,8 +6,6 @@
  * Time: 19:22
  */
 
-include_once __DIR__ . '/Interfaces/Subject.php';
-
 class WeatherData implements \SplSubject
 {
     private $state;

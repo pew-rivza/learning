@@ -17,6 +17,6 @@ class Glace extends Beverage
 
     public function cost(): float
     {
-        return 4.99;
+        return 260;
     }
 }

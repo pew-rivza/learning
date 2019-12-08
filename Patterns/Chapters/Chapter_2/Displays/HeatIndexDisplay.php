@@ -6,7 +6,6 @@
  * Time: 23:59
  */
 
-include_once __DIR__ . '/../Interfaces/Observer.php';
 include_once __DIR__ . '/../Interfaces/Displayable.php';
 
 class HeatIndexDisplay implements \SplObserver, Displayable

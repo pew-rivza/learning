@@ -6,19 +6,14 @@
  * Time: 22:14
  */
 
-include_once __DIR__ . "/../Beverage.php";
+include_once __DIR__ . "/../Decorator.php";
 
-class Marshmallow extends Beverage
+class Marshmallow extends Decorator
 {
-    private $beverage;
-    public function __construct(Beverage $beverage)
-    {
-        $this->beverage = $beverage;
-    }
 
     public function cost(): float
     {
-        return 0.70 + $this->beverage->cost();
+        return 50 + $this->beverage->cost();
     }
 
     public function get_description(): string

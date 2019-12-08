@@ -1,0 +1,6 @@
+#factory-pattern {
+    grid-template-areas:
+            "realisation description plus-minus"
+            "realisation name        decoration"
+            "realisation diagram     example"
+}
