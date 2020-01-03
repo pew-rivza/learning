@@ -1,0 +1,6 @@
+#singleton-pattern {
+    grid-template-areas:
+            "plus-minus  decoration realisation"
+            "description name       realisation"
+            "decoration2 example    diagram"
+}

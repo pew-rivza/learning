@@ -17,5 +17,6 @@
     </div>
     <div data-id="generative" class="pattern-type-container">
         <?php include_once __DIR__ . '/../Chapters/Chapter_4/Example.php'; ?>
+        <?php include_once __DIR__ . '/../Chapters/Chapter_5/Example.php'; ?>
     </div>
 </div>

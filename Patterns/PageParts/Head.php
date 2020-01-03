@@ -16,6 +16,7 @@
     <link href="PageParts/assets/css/chapters/observer.css?<?= time();?>" rel="stylesheet">
     <link href="PageParts/assets/css/chapters/decorator.css?<?= time();?>" rel="stylesheet">
     <link href="PageParts/assets/css/chapters/factory.css?<?= time();?>" rel="stylesheet">
+    <link href="PageParts/assets/css/chapters/singleton.css?<?= time();?>" rel="stylesheet">
 
     <script
             src="https://code.jquery.com/jquery-3.4.1.min.js"

@@ -65,7 +65,11 @@
     grid-area: decoration;
 }
 
-.decoration-block img {
+.decoration2-block {
+    grid-area: decoration2;
+}
+
+.decoration-block img, .decoration2-block img {
     width: 100%;
     height: 100%;
 }
