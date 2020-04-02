@@ -1,0 +1,10 @@
+#state-pattern {
+    grid-template-areas:
+            "realisation plus-minus decoration "
+            "realisation name       description"
+            "diagram     diagram    example"
+}
+
+.gumball-machine {
+    font-size: 12px;
+}

@@ -7,6 +7,7 @@
  */
 ?>
 
+<div class="main-page-link">Главная</div>
 <div class="menu-container">
     <div class="menu-item-container">
         <div class="menu-item additional-back-3 black-text"

@@ -1,0 +1,19 @@
+#iterator-pattern {
+    grid-template-areas:
+            "diagram     diagram     plus-minus"
+            "description name        example"
+            "realisation realisation decoration"
+}
+
+.menu-tables {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-tables table {
+    font-size: 12px;
+    width: 230px;
+    color: #fff;
+    border-spacing: 0;
+}

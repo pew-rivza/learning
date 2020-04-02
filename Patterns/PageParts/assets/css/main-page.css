@@ -1,0 +1,11 @@
+.section-arrow-up, .main-page-section-body {
+    display: none;
+}
+
+.main-page-section-header {
+    cursor: pointer;
+}
+
+.main-page-global-list {
+    list-style-type: none;
+}

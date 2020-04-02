@@ -1,0 +1,6 @@
+#template-method-pattern {
+    grid-template-areas:
+            "realisation description diagram"
+            "realisation name        plus-minus"
+            "realisation decoration  example"
+}

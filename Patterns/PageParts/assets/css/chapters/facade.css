@@ -1,0 +1,33 @@
+#facade-pattern {
+    grid-template-areas:
+            "realisation plus-minus decoration "
+            "realisation name       description"
+            "example     diagram    diagram"
+}
+
+#facade-end-movie {
+    display: none;
+}
+
+.facade-screen {
+    height: 211px;
+}
+
+.movie-toolbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.movie-toolbar .tool {
+    background: #000;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #a4a4a4;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    width: 101px;
+}

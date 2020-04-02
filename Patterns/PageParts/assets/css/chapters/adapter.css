@@ -1,0 +1,6 @@
+#adapter-pattern {
+    grid-template-areas:
+            "plus-minus realisation realisation"
+            "decoration name        diagram"
+            "example    description diagram"
+}

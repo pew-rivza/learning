@@ -1,0 +1,6 @@
+#command-pattern {
+    grid-template-areas:
+            "description diagram     diagram"
+            "decoration  name        example"
+            "realisation realisation plus-minus"
+}

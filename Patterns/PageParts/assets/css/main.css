@@ -41,6 +41,25 @@ body {
     display: none;
 }
 
+.main-page-link {
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.main-page-link:hover {
+    background: #000;
+    color: #fff;
+}
+
+dt {
+    font-style: italic;
+    text-decoration: underline;
+    margin: 15px 0 5px 0;
+}
+
 /*---------------------- Цвета ----------------------*/
 
 .main-back-1 {
@@ -52,7 +71,7 @@ body {
 }
 
 .main-back-3 {
-    background: #DD8C89;
+    background: #f8bcba;
 }
 
 .additional-back-1 {
