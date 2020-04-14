@@ -1,3 +1,5 @@
+'use strict';
+
 function getJSName() {
     const JSName = prompt("Какое «официальное» название JavaScript?", "");
 
