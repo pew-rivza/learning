@@ -7,7 +7,7 @@
  */
 ?>
 
-<script src="/Vanilla/Code/1_Language/JS_Basics/IfElse.js?<?= time();?>"></script>
+<script src="/Vanilla/Code/1_Language/JS_Basics/Conditions.js?<?= time();?>"></script>
 
 <div class="theme">
     <h3 id="if-else">Условные операторы: if, '?'</h3>
@@ -32,4 +32,3 @@
         <button onclick="getNumberSign()">Узнать знак числа</button>
     </div>
 </div>
-

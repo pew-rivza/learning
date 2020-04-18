@@ -15,7 +15,8 @@ function getNumberSign() {
     const number = prompt("Введите число", "");
 
     if (isNaN(+number) || number === "") {
-        tryMore = confirm("Не удалось преобразовать в число. Попробовать еще раз?");
+        tryMore = confirm(`Не удалось преобразовать в число. 
+        Попробовать еще раз?`);
     } else if (number === null) {
         tryMore = false;
     } else {
