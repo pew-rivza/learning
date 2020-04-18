@@ -6,9 +6,9 @@
 }
 
 .chapter-container .menu {
-    background: #797ff2 url("/Vanilla/assets/img/facture-block.png");
+    background: #262559 url("/Vanilla/assets/img/facture-block.png");
     background-blend-mode: multiply;
-    color: #211d40;
+    color: #797ff2;
     font-weight: 400;
     max-height: 100vh;
     overflow-y: auto;
@@ -18,16 +18,16 @@
 }
 
 .chapter-container .menu a, a:visited {
-    color: #211d40;
+    color: #797ff2;
     text-decoration: none;
 }
 
 .chapter-container .menu a:hover {
-    color: #262559;
+    color: #8f93f2;
 }
 
 .chapter-container .menu a:active {
-    color: #2d3073;
+    color: #797ff2;
 }
 
 .chapter-container .menu ul {
