@@ -7,7 +7,7 @@
  */
 ?>
 
-<script src="/Vanilla/Code/1_Language/JS_Basics/ModalFunctions.js?<?= time();?>"></script>
+<script src="/Vanilla/Code/1_Language/JS_Basics/ModalFunctions.js"></script>
 
 <div class="theme">
     <h3 id="modal-functions">Взаимодействие: alert, prompt, confirm</h3>

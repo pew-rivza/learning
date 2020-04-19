@@ -7,7 +7,7 @@
  */
 ?>
 
-<script src="/Vanilla/Code/1_Language/JS_Basics/Cycles.js?<?= time();?>"></script>
+<script src="/Vanilla/Code/1_Language/JS_Basics/Cycles.js"></script>
 
 <div class="theme">
     <h3 id="cycles">Циклы while и for</h3>

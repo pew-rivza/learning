@@ -7,7 +7,7 @@
  */
 ?>
 
-<script src="/Vanilla/Code/1_Language/JS_Basics/Conditions.js?<?= time();?>"></script>
+<script src="/Vanilla/Code/1_Language/JS_Basics/Conditions.js"></script>
 
 <div class="theme">
     <h3 id="if-else">Условные операторы: if, '?'</h3>

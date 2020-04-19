@@ -7,7 +7,7 @@
  */
 ?>
 
-<script src="/Vanilla/Code/1_Language/JS_Basics/LogicalOperators.js?<?= time();?>"></script>
+<script src="/Vanilla/Code/1_Language/JS_Basics/LogicalOperators.js"></script>
 
 <div class="theme">
     <h3 id="logical-operators">Логические операторы</h3>

@@ -7,7 +7,7 @@
  */
 ?>
 
-<script src="/Vanilla/Code/1_Language/Objects_Basics/Objects.js?<?= time();?>"></script>
+<script src="/Vanilla/Code/1_Language/Objects_Basics/Objects.js"></script>
 
 <div class="theme">
     <h3 id="logical-operators">Объекты</h3>

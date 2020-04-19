@@ -7,7 +7,7 @@
  */
 ?>
 
-<script src="/Vanilla/Code/1_Language/JS_Basics/Switch.js?<?= time();?>"></script>
+<script src="/Vanilla/Code/1_Language/JS_Basics/Switch.js"></script>
 
 <div class="theme">
     <h3 id="switch">Конструкция "switch"</h3>
