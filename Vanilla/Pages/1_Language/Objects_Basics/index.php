@@ -14,7 +14,6 @@ include_once __DIR__ . "/../../common/Head.php";
         <h3>Навигация</h3>
         <ul>
             <li><a href="#modal-functions">Объекты</a></li>
-            <li><a href="#if-else">Сборка мусора</a></li>
             <li><a href="#logical-operators">Тип данных Symbol</a></li>
             <li><a href="#cycles">Методы объекта, "this"</a></li>
             <li><a href="#switch">Преобразование объектов в примитивы</a></li>
