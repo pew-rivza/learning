@@ -1,17 +1,28 @@
+:root {
+    --dark-shadow: 3px 3px 4px #16183b;
+    --ultra-dark-blue: #211d40;
+    --dark-blue: #262559;
+    --blue: #2d3073;
+    --light-blue: #797ff2;
+    --nunito-font: 'Nunito', sans-serif;
+    --standart-font-size: 16px;
+    --standart-blend-mode: multiply;
+}
+
 body {
-    background: #211d40 url("/Vanilla/assets/img/facture-body.jpg");
-    color: #797ff2;
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+    background: var(--ultra-dark-blue) url("/Vanilla/assets/img/facture-body.jpg");
+    color: var(--light-blue);
+    font-family: var(--nunito-font);
+    font-size: var(--standart-font-size);
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 22px;
     margin: 0;
-    background-blend-mode: multiply;
+    background-blend-mode: var(--standart-blend-mode);
 }
 
 h2 {
-    color: #797ff2;
+    color: var(--light-blue);
     font-weight: 900;
 }
 
@@ -21,19 +32,19 @@ h3 {
 }
 
 button {
-    background: #211d40;
+    background: var(--ultra-dark-blue);
     border: 0;
     border-radius: 5px;
-    box-shadow: 3px 3px 4px #16183b;
-    color: #797ff2;
+    box-shadow: var(--dark-shadow);
+    color: var(--light-blue);
     cursor: pointer;
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+    font-family: var(--nunito-font);
+    font-size: var(--standart-font-size);
     padding: 10px 20px;
-    -webkit-transition-duration: 150ms;
-    -moz-transition-duration: 150ms;
-    -o-transition-duration: 150ms;
-    transition-duration: 150ms;
+    -webkit-transition-duration: 200ms;
+    -moz-transition-duration: 200ms;
+    -o-transition-duration: 200ms;
+    transition-duration: 200ms;
 }
 
 button:hover {
