@@ -1,0 +1,37 @@
+.menu-container {
+    align-items: center;
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+
+.menu-container > div {
+    align-items: center;
+    background: #261201;
+    color: var(--light-blue);
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    margin: auto;
+    width: 1100px;
+}
+
+.menu-container .menu-items {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 780px;
+}
+
+.menu-container .logo {
+    align-items: flex-end;
+    display: flex;
+    font-size: 23px;
+    font-weight: 700;
+    height: 40px;
+    width: 300px;
+}
+.menu-container .logo img {
+    height: 100%;
+    margin: 0 10px 0 30px;
+}

@@ -7,6 +7,7 @@
  */
 
 include_once __DIR__ . "/../../common/Head.php";
+include_once __DIR__ . "/../../common/Menu.php";
 ?>
 
 <div class="chapter-container">
