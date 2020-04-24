@@ -18,8 +18,12 @@
 
 .menu-container .menu-items {
     align-items: center;
+    color: #fff;
     display: flex;
+    font-size: 18px;
+    font-weight: 700;
     justify-content: space-around;
+    text-transform: uppercase;
     width: 780px;
 }
 

@@ -10,7 +10,6 @@
     <div>
         <div class="logo">
             <img src="/Vanilla/assets/img/logo.png">
-            <div>learning</div>
         </div>
         <div class="menu-items">
             <div>JavaScript</div>
