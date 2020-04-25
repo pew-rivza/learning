@@ -40,7 +40,7 @@
 
         <div class="buttons-bar">
             <button class="link light" data-href="#question22">Назад</button>
-            <button class="link" data-href="#thanks">Закончить</button>
+            <button id="submit">Закончить</button>
         </div>
     </div>
 </div>
