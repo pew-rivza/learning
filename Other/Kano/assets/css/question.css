@@ -11,7 +11,7 @@
 }
 
 .question .progress-bar {
-    background: #dddcde;
+    background: #d7d6d8;
     height: 25px;
     position: fixed;
     width: 100%;
@@ -25,6 +25,7 @@
 .question .progress-value {
     align-items: center;
     box-shadow: 0 2px 3px #ccc;
+    color: #fff;
     display: flex;
     height: 100%;
     justify-content: center;
