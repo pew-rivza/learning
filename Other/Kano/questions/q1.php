@@ -40,7 +40,7 @@
 
         <div class="buttons-bar">
             <button class="link light" data-href="#description">Назад</button>
-            <button class="link" data-href="">Далее</button>
+            <button class="link" data-href="#question2">Далее</button>
         </div>
     </div>
 </div>

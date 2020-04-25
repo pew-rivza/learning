@@ -5,6 +5,7 @@
 }
 
 .question .content {
+    padding-top: 30px;
     margin: 30px;
     max-width: 740px;
 }
@@ -12,7 +13,7 @@
 .question .progress-bar {
     background: #dddcde;
     height: 25px;
-    position: relative;
+    position: fixed;
     width: 100%;
 }
 

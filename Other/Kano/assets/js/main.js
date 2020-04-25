@@ -5,7 +5,9 @@ $(document).ready(function () {
     $(body).on('click', 'button.link', function (event) {
         const linkTo = $(event.target).attr('data-href');
         $('.page').hide();
-        $('.page' + linkTo).show();
+        $(window).scrollTop(0);
+        $('.page' + linkTo).fadeIn(400);
+
     });
 
     $(body).on('click', '.question .answers .variant', function (event) {

@@ -32,5 +32,6 @@ ini_set('display_startup_errors', 1);
 
 <?php //include_once __DIR__ . "/screen.php"; ?>
 <?php //include_once __DIR__ . "/description.php"; ?>
-<?php include_once __DIR__ . "/questions/q1.php"; ?>
+<?php //include_once __DIR__ . "/questions/q1.php"; ?>
+<?php include_once __DIR__ . "/questions/q2.php"; ?>
 
