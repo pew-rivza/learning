@@ -1,0 +1,17 @@
+.description-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.description-container > div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description-container .description {
+    max-width: 940px;
+}
