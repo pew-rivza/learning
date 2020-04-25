@@ -1,0 +1,44 @@
+.screen-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+    background: url("/Other/Kano/assets/img/background-poster.jpg") no-repeat #000;
+    background-size: cover;
+}
+
+.screen-container .video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+}
+
+.screen-container .overlay {
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    left:0;
+    position: absolute;
+    top:0;
+    width: 100%;
+    z-index: 4;
+}
+
+.screen-container .overlay h1 {
+    line-height: 50px;
+    margin: 0 30px;
+    text-align: center;
+}
