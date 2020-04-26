@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^poll$ /Other/Kano/index.php [L]
