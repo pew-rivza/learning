@@ -1,5 +1,21 @@
+function getCookie(name) {
+    let matches = document.cookie.match(new RegExp(
+        "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+    ));
+    return matches ? decodeURIComponent(matches[1]) : undefined;
+}
+
 $(document).ready(function () {
     const body = 'body';
+    if (getCookie('submit')) {
+        $('.page').hide();
+        $(window).scrollTop(0);
+        $('.page#thanks').show();
+    } else {
+        $('.page').hide();
+        $(window).scrollTop(0);
+        $('.page#screen').show();
+    }
 
     $(body).on('click', 'button.link', function (event) {
         const linkTo = $(event.target).attr('data-href');
@@ -36,6 +52,8 @@ $(document).ready(function () {
                     $('.page').hide();
                     $(window).scrollTop(0);
                     $('.page#thanks').fadeIn(400);
+                    const maxAge = 60*60*24*30*12*100;
+                    document.cookie = `submit=submit; path=/; max-age=${maxAge}`;
                 } else {
                     alert("Не удалось отправить данные")
                 }
