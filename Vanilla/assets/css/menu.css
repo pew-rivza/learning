@@ -7,7 +7,8 @@
 
 .menu-container > div {
     align-items: center;
-    background: #261201;
+    background: var(--dark-blue);
+    box-shadow: 0 -1px 0 var(--light-blue) inset;
     color: var(--light-blue);
     display: flex;
     height: 70px;
