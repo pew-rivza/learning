@@ -10,7 +10,7 @@
     width: 1100px;
 }
 
-.chapter-container .menu {
+.chapter-container .sub-menu {
     background: var(--dark-blue) url("/Vanilla/assets/img/facture-block.png");
     background-blend-mode: var(--standart-blend-mode);
     color: var(--light-blue);
@@ -22,26 +22,26 @@
     width: 300px;
 }
 
-.chapter-container .menu a, a:visited {
+.chapter-container .sub-menu a, a:visited {
     color: var(--light-blue);
     text-decoration: none;
 }
 
-.chapter-container .menu a:hover {
+.chapter-container .sub-menu a:hover {
     color: #8f93f2;
 }
 
-.chapter-container .menu a:active {
+.chapter-container .sub-menu a:active {
     color: var(--light-blue);
 }
 
-.chapter-container .menu ul {
+.chapter-container .sub-menu ul {
     list-style-type: none;
     margin: 0 20px;
     padding: 0;
 }
 
-.chapter-container .menu ul li + li {
+.chapter-container .sub-menu ul li + li {
     border-top: 1px dashed;
     padding-top: 10px;
     margin-top: 10px;
