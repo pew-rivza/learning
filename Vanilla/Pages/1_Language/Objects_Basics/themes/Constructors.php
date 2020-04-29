@@ -37,7 +37,10 @@
         <script>
             let accumulator = new Accumulator(1);
         </script>
-        <button onclick="accumulator.read();">Ввести значение</button>
-        <button onclick="alert(accumulator.value);">Вывести сумму</button>
+
+        <div class="buttons-bar">
+            <button onclick="accumulator.read();">Ввести значение</button>
+            <button onclick="alert(accumulator.value);">Вывести сумму</button>
+        </div>
     </div>
 </div>

@@ -29,8 +29,10 @@
         </ul>
 
         <div class="header">Решение</div>
-        <button onclick="user.read();">Ввести значения</button>
-        <button onclick="user.sum();">Посчитать сумму</button>
-        <button onclick="user.mul();">Посчитать произведение</button>
+        <div class="buttons-bar">
+            <button onclick="user.read();">Ввести значения</button>
+            <button onclick="user.sum();">Посчитать сумму</button>
+            <button onclick="user.mul();">Посчитать произведение</button>
+        </div>
     </div>
 </div>
