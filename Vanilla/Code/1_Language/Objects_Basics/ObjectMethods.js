@@ -26,7 +26,7 @@ function read() {
 function sum() {
     if(this.operandA !== null && this.operandB !== null) {
         const sum = +this.operandA + +this.operandB;
-        alert(`Сумма чисел = ${sum}`);
+        alert(`Сумма чисел = ${+sum.toFixed(2)}`);
     } else {
         alert(`Невозможно посчитать сумму, так как 
         отсутствует одно из значений`);
@@ -36,7 +36,7 @@ function sum() {
 function mul() {
     if(this.operandA !== null && this.operandB !== null) {
         const mul = this.operandA * this.operandB;
-        alert(`Произведение чисел = ${mul}`);
+        alert(`Произведение чисел = ${+mul.toFixed(2)}`);
     } else {
         alert(`Невозможно посчитать произведение, так как 
         отсутствует одно из значений`);

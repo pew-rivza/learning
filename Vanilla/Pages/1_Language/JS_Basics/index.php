@@ -11,7 +11,7 @@ include_once __DIR__ . "/../../common/Menu.php";
 ?>
 
 <div class="chapter-container">
-    <div class="menu">
+    <div class="sub-menu">
         <h3>Навигация</h3>
         <ul>
             <li><a href="#modal-functions">Взаимодействие: alert, prompt, confirm</a></li>
