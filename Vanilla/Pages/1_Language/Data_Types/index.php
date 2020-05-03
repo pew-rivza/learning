@@ -16,7 +16,7 @@ include_once __DIR__ . "/../../common/Menu.php";
         <h3>Навигация</h3>
         <ul>
             <li><a href="#numbers">Числа</a></li>
-            <li><a href="#if-else">Строки</a></li>
+            <li><a href="#strings">Строки</a></li>
             <li><a href="#logical-operators">Массивы</a></li>
             <li><a href="#cycles">Методы массивов</a></li>
             <li><a href="#switch">Перебираемые объекты</a></li>
@@ -31,5 +31,6 @@ include_once __DIR__ . "/../../common/Menu.php";
     <div class="content">
         <h2>Типы данных</h2>
         <? include_once __DIR__ . "/themes/Numbers.php"; ?>
+        <? include_once __DIR__ . "/themes/Strings.php"; ?>
     </div>
 </div>
