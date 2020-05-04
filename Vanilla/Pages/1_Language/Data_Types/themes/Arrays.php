@@ -37,8 +37,6 @@
         3000 элементов.
 
         <div class="header">Решение</div>
-        <div class="buttons-bar">
-            <button onclick="getArraySum()">Посчитать сумму (см. консоль)</button>
-        </div>
+        <button onclick="getArraySum()">Посчитать сумму (см. консоль)</button>
     </div>
 </div>

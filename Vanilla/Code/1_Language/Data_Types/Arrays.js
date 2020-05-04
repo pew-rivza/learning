@@ -10,7 +10,7 @@ function sumInput() {
     }
     while(term === "0" || +term);
 
-    let sum = sumArr.reduce( (acc, cur) => (acc + cur), 0 );
+    let sum = sumArr.reduce( (acc, cur) => (acc + cur) );
     alert(sum);
 }
 

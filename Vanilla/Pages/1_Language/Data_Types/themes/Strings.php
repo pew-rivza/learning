@@ -10,7 +10,7 @@
 <script src="/Vanilla/Code/1_Language/Data_Types/Strings.js"></script>
 
 <div class="theme">
-    <h3 id="strings">Числа</h3>
+    <h3 id="strings">Строки</h3>
     <div class="task">
         <div class="header">Задача 1</div>
         Написать функцию ucFirst(), запрашивает строку str и возвращает
