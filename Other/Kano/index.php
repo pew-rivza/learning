@@ -31,15 +31,13 @@ ini_set('display_startup_errors', 1);
     <script src="/Other/Kano/assets/js/main.js"></script>
 </head>
 
-<?php include_once __DIR__ . "/questionTemplate.php"; ?>
-
-<?php include_once __DIR__ . "/screen.php"; ?>
-<?php include_once __DIR__ . "/description.php"; ?>
-<?php include_once __DIR__ . "/questions.php"; ?>
-
 <?php
+include_once __DIR__ . "/questions.php";
+include_once __DIR__ . "/questionTemplate.php";
 
-
+include_once __DIR__ . "/screen.php";
+include_once __DIR__ . "/description.php";
+include_once __DIR__ . "/thanks.php";
 
 for ($i = 0; $i < count($questions); $i++) {
     $prev_page = $i ? ("#question" . $i) : "#description";
@@ -50,9 +48,3 @@ for ($i = 0; $i < count($questions); $i++) {
         $prev_page, $next_page,
         count($questions));
 }
-
-
-?>
-
-<?php include_once __DIR__ . "/thanks.php"; ?>
-

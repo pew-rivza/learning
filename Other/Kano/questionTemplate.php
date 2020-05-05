@@ -29,25 +29,21 @@ function questionTemplate($number, $function, $prevPage, $nextPage, $questionsNu
             </div>
 
             <div class="answers">
-                <div class="option">Насколько вам понравится, если в продукте будет эта функция?</div>
-                <div class="variant" data-code="<?= $number; ?>-1-1">Было бы круто иметь эту функцию!</div>
-                <div class="variant" data-code="<?= $number; ?>-1-2">Я как бы ожидаю, что эта функция будет в продукте в
-                    любом случае
-                </div>
-                <div class="variant" data-code="<?= $number; ?>-1-3">Да в целом все равно</div>
-                <div class="variant" data-code="<?= $number; ?>-1-4">Ну, я не в восторге, но переживу</div>
-                <div class="variant" data-code="<?= $number; ?>-1-5">Дичь какая-то, я не буду этим пользоваться!</div>
+                <div class="option">А что, если эта функция будет в приложении?</div>
+                <div class="variant" data-code="<?= $number; ?>-1-1">Круто!</div>
+                <div class="variant" data-code="<?= $number; ?>-1-2">Так и должно быть</div>
+                <div class="variant" data-code="<?= $number; ?>-1-3">Все равно</div>
+                <div class="variant" data-code="<?= $number; ?>-1-4">Переживу, но...</div>
+                <div class="variant" data-code="<?= $number; ?>-1-5">Дичь какая-то!</div>
             </div>
 
             <div class="answers">
-                <div class="option">Как вы отнесетесь к тому, если в продукте этой функции не будет вообще?</div>
-                <div class="variant" data-code="<?= $number; ?>-2-1">Было бы круто, если бы этой функции не было!</div>
-                <div class="variant" data-code="<?= $number; ?>-2-2">Я как бы ожидаю, что этой функции не будет в
-                    продукте в любом случае
-                </div>
-                <div class="variant" data-code="<?= $number; ?>-2-3">Да в целом все равно</div>
-                <div class="variant" data-code="<?= $number; ?>-2-4">Ну, я не в восторге, но переживу</div>
-                <div class="variant" data-code="<?= $number; ?>-2-5">Дичь какая-то, эта функция необходима!</div>
+                <div class="option">А если ее не будет вообще?</div>
+                <div class="variant" data-code="<?= $number; ?>-2-1">Круто!</div>
+                <div class="variant" data-code="<?= $number; ?>-2-2">Так и должно быть</div>
+                <div class="variant" data-code="<?= $number; ?>-2-3">Все равно</div>
+                <div class="variant" data-code="<?= $number; ?>-2-4">Переживу, но...</div>
+                <div class="variant" data-code="<?= $number; ?>-2-5">Дичь какая-то!</div>
             </div>
 
             <div class="buttons-bar">
