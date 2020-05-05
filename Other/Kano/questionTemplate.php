@@ -29,21 +29,21 @@ function questionTemplate($number, $function, $prevPage, $nextPage, $questionsNu
             </div>
 
             <div class="answers">
-                <div class="option">А что, если эта функция будет в приложении?</div>
-                <div class="variant" data-code="<?= $number; ?>-1-1">Круто!</div>
-                <div class="variant" data-code="<?= $number; ?>-1-2">Так и должно быть</div>
+                <div class="option">Как вы отнесетесь к тому, если в приложении будет эта функция?</div>
+                <div class="variant" data-code="<?= $number; ?>-1-1">Нравится</div>
+                <div class="variant" data-code="<?= $number; ?>-1-2">Ожидаю этого</div>
                 <div class="variant" data-code="<?= $number; ?>-1-3">Все равно</div>
-                <div class="variant" data-code="<?= $number; ?>-1-4">Переживу, но...</div>
-                <div class="variant" data-code="<?= $number; ?>-1-5">Дичь какая-то!</div>
+                <div class="variant" data-code="<?= $number; ?>-1-4">Потерплю</div>
+                <div class="variant" data-code="<?= $number; ?>-1-5">Не нравится</div>
             </div>
 
             <div class="answers">
-                <div class="option">А если ее не будет вообще?</div>
-                <div class="variant" data-code="<?= $number; ?>-2-1">Круто!</div>
-                <div class="variant" data-code="<?= $number; ?>-2-2">Так и должно быть</div>
+                <div class="option">Как вы отнесетесь к тому, если в приложении НЕ будет этой функции?</div>
+                <div class="variant" data-code="<?= $number; ?>-2-1">Нравится</div>
+                <div class="variant" data-code="<?= $number; ?>-2-2">Ожидаю этого</div>
                 <div class="variant" data-code="<?= $number; ?>-2-3">Все равно</div>
-                <div class="variant" data-code="<?= $number; ?>-2-4">Переживу, но...</div>
-                <div class="variant" data-code="<?= $number; ?>-2-5">Дичь какая-то!</div>
+                <div class="variant" data-code="<?= $number; ?>-2-4">Потерплю</div>
+                <div class="variant" data-code="<?= $number; ?>-2-5">Не нравится</div>
             </div>
 
             <div class="buttons-bar">
