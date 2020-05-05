@@ -41,26 +41,29 @@ $(document).ready(function () {
             for (let i = 0; i < answersElements.length; i++) {
                 answers.push($(answersElements[i]).attr('data-code'));
             }
-        }
 
-        $.ajax({
-            url: '/Other/Kano/assets/php/submit.php',
-            type: 'POST',
-            data: {answers: answers.toString()},
-            success(data) {
-                if (data) {
-                    $('.page').hide();
-                    $(window).scrollTop(0);
-                    $('.page#thanks').fadeIn(400);
-                    const maxAge = 60*60*24*30*12*100;
-                    document.cookie = `submit=submit; path=/; max-age=${maxAge}`;
-                } else {
-                    alert("Не удалось отправить данные")
+            console.log("Ответа:");
+            console.log(answers);
+
+            $.ajax({
+                url: '/Other/Kano/assets/php/submit.php',
+                type: 'POST',
+                data: {answers: answers.toString()},
+                success(data) {
+                    if (data) {
+                        $('.page').hide();
+                        $(window).scrollTop(0);
+                        $('.page#thanks').fadeIn(400);
+                        const maxAge = 60*60*24*30*12*100;
+                        document.cookie = `submit=submit; path=/; max-age=${maxAge}`;
+                    } else {
+                        alert("Не удалось отправить данные")
+                    }
+                },
+                error() {
+                    alert("На сервере произошла ошибка")
                 }
-            },
-            error() {
-                alert("На сервере произошла ошибка")
-            }
-        });
+            });
+        }
     });
 });
