@@ -9,7 +9,7 @@
 
 <div class="page thanks-container" id="thanks">
     <div class="overlay">
-        <h1>Спасибо!</h1>
+        <h1>Спасибо за участие!</h1>
         <h2>Данные опроса отправлены</h2>
     </div>
     <video loop="" muted="" autoplay="" poster="/Other/Kano/assets/img/background-poster.jpg" class="video">
