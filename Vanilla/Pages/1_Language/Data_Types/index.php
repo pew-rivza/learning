@@ -32,6 +32,5 @@ include_once __DIR__ . "/../../common/Menu.php";
         <h2>Типы данных</h2>
         <? include_once __DIR__ . "/themes/Numbers.php"; ?>
         <? include_once __DIR__ . "/themes/Strings.php"; ?>
-        <? include_once __DIR__ . "/themes/Arrays.php"; ?>
     </div>
 </div>
