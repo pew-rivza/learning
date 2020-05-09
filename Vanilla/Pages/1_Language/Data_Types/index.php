@@ -19,7 +19,7 @@ include_once __DIR__ . "/../../common/Menu.php";
             <li><a href="#strings">Строки</a></li>
             <li><a href="#arrays">Массивы</a></li>
             <li><a href="#array-methods">Методы массивов</a></li>
-            <li><a href="#switch">Перебираемые объекты</a></li>
+            <li><a href="#iterated-objects">Перебираемые объекты</a></li>
             <li><a href="#switch">Map и Set</a></li>
             <li><a href="#switch">WeakMap и WeakSet</a></li>
             <li><a href="#switch">Object.keys, values, entries</a></li>
@@ -34,5 +34,6 @@ include_once __DIR__ . "/../../common/Menu.php";
         <? include_once __DIR__ . "/themes/Strings.php"; ?>
         <? include_once __DIR__ . "/themes/Arrays.php"; ?>
         <? include_once __DIR__ . "/themes/ArrayMethods.php"; ?>
+        <? include_once __DIR__ . "/themes/IteratedObjects.php"; ?>
     </div>
 </div>
