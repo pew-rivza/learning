@@ -15,7 +15,7 @@ function sumInput() {
 }
 
 function getMaxSubSumN2(arr) {
-    let startTime = new Date();
+    let startTime = Date.now();
     let maxSum = 0;
 
     for (let i = 0; i < arr.length; i++) {
@@ -27,12 +27,12 @@ function getMaxSubSumN2(arr) {
         }
     }
 
-    console.log(`Время медленного O(n^2) алгоритма: ${new Date() - startTime} мс`);
+    console.log(`Время медленного O(n^2) алгоритма: ${Date.now() - startTime} мс`);
     return maxSum;
 }
 
 function getMaxSubSumN(arr) {
-    let startTime = new Date();
+    let startTime = Date.now();
     let maxSum = 0;
     let subSum = 0;
 
@@ -42,7 +42,7 @@ function getMaxSubSumN(arr) {
         subSum = Math.max(subSum, 0);
     }
 
-    console.log(`Время быстрого O(n) алгоритма: ${new Date() - startTime} мс`);
+    console.log(`Время быстрого O(n) алгоритма: ${Date.now() - startTime} мс`);
     return maxSum;
 }
 
