@@ -49,11 +49,7 @@ function Calculator() {
     this["-"] = (a, b) => ( a - b );
 
     this.calculate = (expression) => {
-        let exprParts = expression.split(" ");
-
-        let op1 = exprParts[0];
-        let op2 = exprParts[2];
-        let func = exprParts[1];
+        let [op1, func, op2] = expression.split(" ");
 
         return this[func](op1, op2);
     }
