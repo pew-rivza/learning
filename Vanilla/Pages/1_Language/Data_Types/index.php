@@ -21,8 +21,7 @@ include_once __DIR__ . "/../../common/Menu.php";
             <li><a href="#array-methods">Методы массивов</a></li>
             <li><a href="#iterated-objects">Перебираемые объекты</a></li>
             <li><a href="#map-n-set">Map и Set</a></li>
-            <li><a href="#switch">WeakMap и WeakSet</a></li>
-            <li><a href="#switch">Object.keys, values, entries</a></li>
+            <li><a href="#object-kve">Object.keys, values, entries</a></li>
             <li><a href="#switch">Деструктурирующее присваивание</a></li>
             <li><a href="#switch">Дата и время</a></li>
             <li><a href="#switch">Формат JSON, метод toJSON</a></li>
@@ -36,5 +35,6 @@ include_once __DIR__ . "/../../common/Menu.php";
         <? include_once __DIR__ . "/themes/ArrayMethods.php"; ?>
         <? include_once __DIR__ . "/themes/IteratedObjects.php"; ?>
         <? include_once __DIR__ . "/themes/MapNSet.php"; ?>
+        <? include_once __DIR__ . "/themes/ObjectKVE.php"; ?>
     </div>
 </div>
