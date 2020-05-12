@@ -23,7 +23,7 @@ include_once __DIR__ . "/../../common/Menu.php";
             <li><a href="#map-n-set">Map и Set</a></li>
             <li><a href="#object-kve">Object.keys, values, entries</a></li>
             <li><a href="#date">Дата и время</a></li>
-            <li><a href="#switch">Формат JSON, метод toJSON</a></li>
+            <li><a href="#json">Формат JSON, метод toJSON</a></li>
         </ul>
     </div>
     <div class="content">
@@ -36,5 +36,6 @@ include_once __DIR__ . "/../../common/Menu.php";
         <? include_once __DIR__ . "/themes/MapNSet.php"; ?>
         <? include_once __DIR__ . "/themes/ObjectKVE.php"; ?>
         <? include_once __DIR__ . "/themes/Date.php"; ?>
+        <? include_once __DIR__ . "/themes/JSON.php"; ?>
     </div>
 </div>
