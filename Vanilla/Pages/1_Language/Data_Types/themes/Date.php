@@ -2,6 +2,7 @@
 ?>
 
 <script src="/Vanilla/Code/1_Language/Data_Types/Date.js"></script>
+<script src="/Vanilla/Code/1_Language/Data_Types/SupportFuncForDate.js"></script>
 
 <div class="theme">
     <h3 id="date">Дата и время</h3>
@@ -17,7 +18,7 @@
     </div>
 
     <div class="task">
-        <div class="header">Задача 1</div>
+        <div class="header">Задача 2</div>
         Написать функцию formatDate(), форматирующую дату по следующему принципу:
 
         <ul>
@@ -29,6 +30,6 @@
 
         <div class="header">Решение</div>
 
-        <button onclick="">Отформатировать дату</button>
+        <button onclick="getFormattedDate();">Отформатировать дату</button>
     </div>
 </div>
