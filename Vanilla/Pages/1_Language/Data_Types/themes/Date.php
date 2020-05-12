@@ -13,7 +13,6 @@
         значениях. Функция не должна изменять переданный ей объект date.
 
         <div class="header">Решение</div>
-
         <button onclick="getDateAgo();">Вычислить дату X дней назад</button>
     </div>
 
