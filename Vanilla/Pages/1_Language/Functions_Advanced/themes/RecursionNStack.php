@@ -22,7 +22,7 @@
     </div>
 
     <div class="task">
-        <div class="header">Задача 1</div>
+        <div class="header">Задача 2</div>
         Написать функцию fib(n) которая возвращает n-е число Фибоначчи.
         Сделать три варианта решения:
         <ul>
@@ -37,6 +37,43 @@
             <button onclick="execTimeTemplate(fibCycle);">Цикл</button>
             <button onclick="execTimeTemplate(fibRecursion);">Рекурсия</button>
             <button onclick="execTimeTemplate(fibBinet);">Формула Бине</button>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="header">Задача 3</div>
+        Написать функцию printList(list), которая выводит элементы по одному для списка:
+<pre>
+let list = {
+  value: 1,
+  next: {
+    value: 2,
+    next: {
+      value: 3,
+      next: {
+        value: 4,
+        next: null
+      }
+    }
+  }
+};
+</pre>
+        Сделать два варианта решения:
+        <ul>
+            <li>С использованием цикла</li>
+            <li>Через рекурсию</li>
+        </ul>
+        Реализовать вывод в прямом и в обратном порядке.
+
+        <div class="header">Решение</div>
+        <div class="decision-description">Посчитать сумму (время выполнения см. в консоли):</div>
+        <div class="buttons-bar">
+            <button onclick="execTimeTemplate(fibCycle);">Цикл (прямой порядок)</button>
+            <button onclick="execTimeTemplate(fibRecursion);">Рекурсия (прямой порядок)</button>
+        </div>
+        <div class="buttons-bar">
+            <button onclick="execTimeTemplate(fibCycle);">Цикл (обратный порядок)</button>
+            <button onclick="execTimeTemplate(fibRecursion);">Рекурсия (обратный порядок)</button>
         </div>
     </div>
 </div>

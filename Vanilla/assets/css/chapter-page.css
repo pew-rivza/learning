@@ -2,6 +2,10 @@
     margin-left: 15px;
 }
 
+.chapter-container .buttons-bar + .buttons-bar {
+    margin-top: 20px;
+}
+
 .chapter-container {
     align-items: flex-start;
     display: flex;
@@ -61,6 +65,10 @@
     background-blend-mode: var(--standart-blend-mode);
 }
 
+.chapter-container .theme .decision-description {
+    margin-bottom: 20px;
+}
+
 .chapter-container .theme .header {
     background: linear-gradient(to right, var(--blue), #22214E);
     font-weight: 400;
@@ -72,8 +80,4 @@
     border-top: 1px dashed;
     margin-top: 40px;
     padding-top: 15px;
-}
-
-.chapter-container .theme .decision-description {
-    margin-bottom: 20px;
 }
