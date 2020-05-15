@@ -13,8 +13,3 @@ function inArray(array) {
         return array.includes(item);
     };
 }
-
-
-function abc() {
-    alert( arr.filter(inArray([1,2,10])) );
-}
