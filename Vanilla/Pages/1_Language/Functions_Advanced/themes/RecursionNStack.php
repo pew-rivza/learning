@@ -66,14 +66,14 @@ let list = {
         Реализовать вывод в прямом и в обратном порядке.
 
         <div class="header">Решение</div>
-        <div class="decision-description">Посчитать сумму (время выполнения см. в консоли):</div>
+        <div class="decision-description">Посчитать сумму:</div>
         <div class="buttons-bar">
-            <button onclick="execTimeTemplate(fibCycle);">Цикл (прямой порядок)</button>
-            <button onclick="execTimeTemplate(fibRecursion);">Рекурсия (прямой порядок)</button>
+            <button onclick="enumListCycle();">Цикл (прямой порядок)</button>
+            <button onclick="enumListRecursion();">Рекурсия (прямой порядок)</button>
         </div>
         <div class="buttons-bar">
-            <button onclick="execTimeTemplate(fibCycle);">Цикл (обратный порядок)</button>
-            <button onclick="execTimeTemplate(fibRecursion);">Рекурсия (обратный порядок)</button>
+            <button onclick="enumListRevCycle();">Цикл (обратный порядок)</button>
+            <button onclick="enumListRevRecursion();">Рекурсия (обратный порядок)</button>
         </div>
     </div>
 </div>

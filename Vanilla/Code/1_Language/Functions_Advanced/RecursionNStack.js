@@ -1,5 +1,7 @@
 'use strict';
 
+// Сумма чисел
+
 function sumToNCycle(number) {
     let sum = 0;
 
@@ -25,6 +27,8 @@ function sumToNProgression(number) {
 
     return {result: sum, method: "арифметическая прогрессия"};
 }
+
+// Число Фибоначчи
 
 function fibCycle(number) {
     let a = 1;
@@ -57,6 +61,78 @@ function fibBinet(number) {
 
     return {result: fibNumber.toFixed(0), method: "формула Бине"};
 }
+
+// Связный список
+
+let list = {
+    value: 1,
+    next: {
+        value: 2,
+        next: {
+            value: 3,
+            next: {
+                value: 4,
+                next: null
+            }
+        }
+    }
+};
+
+function enumListCycle() {
+    if (Object.entries(list).length === 0) {
+        alert("Список пуст");
+    } else {
+        let values = [];
+        let copyList = Object.assign({}, list);
+
+        do {
+            values.push(copyList.value);
+            copyList = copyList.next;
+        }
+        while (copyList)
+
+        alert(values);
+    }
+}
+
+function enumListRecursion() {
+    alert(enumList(list));
+}
+
+function enumList(list) {
+    return list.next ?
+        ( list.value + ',' + enumList(list.next) )  :
+        list.value;
+}
+
+function enumListRevCycle() {
+    if (Object.entries(list).length === 0) {
+        alert("Список пуст");
+    } else {
+        let values = [];
+        let copyList = Object.assign({}, list);
+
+        do {
+            values.push(copyList.value);
+            copyList = copyList.next;
+        }
+        while (copyList)
+
+        alert( values.reverse() );
+    }
+}
+
+function enumListRevRecursion() {
+    alert(enumListRev(list));
+}
+
+function enumListRev(list) {
+    return list.next ?
+        (enumListRev(list.next) + ',' + list.value)  :
+        list.value;
+}
+
+// Вспомогательные функции
 
 function askNumber() {
     let number = "";
