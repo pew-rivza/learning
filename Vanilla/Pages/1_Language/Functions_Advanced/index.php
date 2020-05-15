@@ -9,8 +9,7 @@ include_once __DIR__ . "/../../common/Menu.php";
         <h3>Навигация</h3>
         <ul>
             <li><a href="#recursion-n-stack">Рекурсия и стек</a></li>
-            <li><a href="#">Остаточные параметры и оператор расширения</a></li>
-            <li><a href="#">Замыкание</a></li>
+            <li><a href="#closure">Замыкание</a></li>
             <li><a href="#">Устаревшее ключевое слово "var"</a></li>
             <li><a href="#">Глобальный объект</a></li>
             <li><a href="#">Объект функции, NFE</a></li>
@@ -24,5 +23,6 @@ include_once __DIR__ . "/../../common/Menu.php";
     <div class="content">
         <h2>Продвинутая работа с функциями</h2>
         <? include_once __DIR__ . "/themes/RecursionNStack.php"; ?>
+        <? include_once __DIR__ . "/themes/Closure.php"; ?>
     </div>
 </div>
