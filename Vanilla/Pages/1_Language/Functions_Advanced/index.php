@@ -10,12 +10,7 @@ include_once __DIR__ . "/../../common/Menu.php";
         <ul>
             <li><a href="#recursion-n-stack">Рекурсия и стек</a></li>
             <li><a href="#closure">Замыкание</a></li>
-            <li><a href="#">Устаревшее ключевое слово "var"</a></li>
-            <li><a href="#">Глобальный объект</a></li>
-            <li><a href="#">Объект функции, NFE</a></li>
-            <li><a href="#">Синтаксис "new Function"</a></li>
-            <li><a href="#">Планирование: setTimeout и setInterval</a></li>
-            <li><a href="#">Декораторы и переадресация вызова, сall/apply</a></li>
+            <li><a href="#decorators-call-apply">Декораторы и переадресация вызова, сall/apply</a></li>
             <li><a href="#">Привязка контекста к функции</a></li>
             <li><a href="#">Повторяем стрелочные функции</a></li>
         </ul>
@@ -24,5 +19,6 @@ include_once __DIR__ . "/../../common/Menu.php";
         <h2>Продвинутая работа с функциями</h2>
         <? include_once __DIR__ . "/themes/RecursionNStack.php"; ?>
         <? include_once __DIR__ . "/themes/Closure.php"; ?>
+        <? include_once __DIR__ . "/themes/DecoratorsCallApply.php"; ?>
     </div>
 </div>
