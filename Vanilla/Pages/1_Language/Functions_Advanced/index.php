@@ -11,8 +11,6 @@ include_once __DIR__ . "/../../common/Menu.php";
             <li><a href="#recursion-n-stack">Рекурсия и стек</a></li>
             <li><a href="#closure">Замыкание</a></li>
             <li><a href="#decorators-call-apply">Декораторы и переадресация вызова, сall/apply</a></li>
-            <li><a href="#">Привязка контекста к функции</a></li>
-            <li><a href="#">Повторяем стрелочные функции</a></li>
         </ul>
     </div>
     <div class="content">
