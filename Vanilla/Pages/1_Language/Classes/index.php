@@ -9,11 +9,6 @@ include_once __DIR__ . "/../../common/Menu.php";
         <h3>Навигация</h3>
         <ul>
             <li><a href="#inheritance">Наследование классов</a></li>
-            <li><a href="#">Статические свойства и методы</a></li>
-            <li><a href="#">Приватные и защищённые методы и свойства</a></li>
-            <li><a href="#">Расширение встроенных классов</a></li>
-            <li><a href="#">Проверка класса: "instanceof"</a></li>
-            <li><a href="#">Примеси</a></li>
         </ul>
     </div>
     <div class="content">
