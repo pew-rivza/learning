@@ -4,10 +4,13 @@
     <h3 id="callbacks">Введение: колбэки</h3>
     <div class="task">
         <div class="header">Задача 1</div>
+        Существует функция showCircle(radius), которая рисует постепенно растущий круг.
+        Необходимо реализовать круг с сообщением внутри, которое должно появляться после
+        анимации (когда круг достигнет своих размеров). Реализация должна быть на коллбэках.
 
         <div class="header">Решение</div>
 
-        <button onclick="showCircle(50, showText)">Нарисовать круг</button>
+        <button onclick="showCircleCallback(50, showTextCallback)">Нарисовать круг (коллбэк)</button>
         <div id="circle-container"></div>
     </div>
 </div>
