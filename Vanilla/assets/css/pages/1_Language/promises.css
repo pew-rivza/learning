@@ -1,4 +1,4 @@
-#circle-container {
+#circle-container, #circle-container2 {
     border: 2px solid var(--blue);
     height: 140px;
     margin: 20px 0;
@@ -6,7 +6,7 @@
     width: 140px;
 }
 
-#circle {
+#circle, #circle2 {
     align-items: center;
     border-radius: 50%;
     display: flex;
