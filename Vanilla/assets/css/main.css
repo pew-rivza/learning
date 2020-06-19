@@ -50,3 +50,19 @@ button {
 button:hover {
     background: #242046;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid var(--light-blue);
+    padding: 5px 10px;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+    background-color: var(--ultra-dark-blue);
+}

@@ -21,7 +21,6 @@ ini_set('display_startup_errors', 1);
     <link rel="stylesheet" href="/Vanilla/assets/css/chapter-page.css">
 
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/1_Language/promises.css">
-    <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/document.css">
 
     <script
             src="https://code.jquery.com/jquery-3.4.1.min.js"
