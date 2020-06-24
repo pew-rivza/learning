@@ -19,6 +19,7 @@ body {
     line-height: 22px;
     margin: 0;
     background-blend-mode: var(--standart-blend-mode);
+    position: relative;
 }
 
 h2 {

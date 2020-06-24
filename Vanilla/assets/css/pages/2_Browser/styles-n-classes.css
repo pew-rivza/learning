@@ -1,0 +1,7 @@
+.notification {
+    background: var(--light-blue);
+    border-radius: 5px;
+    color: var(--ultra-dark-blue);
+    padding: 15px;
+    position: fixed;
+}
