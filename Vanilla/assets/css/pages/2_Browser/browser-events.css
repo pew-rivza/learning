@@ -1,0 +1,17 @@
+#field-with-onclicked-ball {
+    background: #00FF00 url(/Vanilla/assets/img/facture-body.jpg);
+    background-blend-mode: var(--standart-blend-mode);
+    border: 10px solid black;
+    cursor: pointer;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    width: 200px;
+}
+
+#field-with-onclicked-ball #ball {
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: 500ms ease-in-out;
+}
