@@ -20,3 +20,28 @@ document.addEventListener("DOMContentLoaded", function() {
         ball.style.top = ballY + 'px';
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    let gallery = document.querySelector('#carousel .gallery ul');
+    let images = gallery.querySelectorAll('img');
+
+    let position = 0;
+    let width = images[0].clientWidth;
+    let count = 3;
+
+    let previousArrow = document.querySelector('#carousel .arrow.previous');
+    let nextArrow = document.querySelector('#carousel .arrow.next');
+
+
+    previousArrow.addEventListener('click', function () {
+        position += width * count;
+        position = Math.min(position, 0);
+        gallery.style.left = position + 'px';
+    });
+
+    nextArrow.addEventListener('click', function () {
+        position -= width * count;
+        position = Math.max( position, -width * (images.length - count) );
+        gallery.style.left =  position+ 'px';
+    })
+});
