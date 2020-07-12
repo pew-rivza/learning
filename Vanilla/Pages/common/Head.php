@@ -21,8 +21,10 @@ ini_set('display_startup_errors', 1);
     <link rel="stylesheet" href="/Vanilla/assets/css/chapter-page.css">
 
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/1_Language/promises.css">
-    <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/styles-n-classes.css">
-    <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/browser-events.css">
+
+    <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/Document/styles-n-classes.css">
+    <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/EventsIntro/browser-events.css">
+    <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/EventsIntro/event-delegation.css">
 
     <script
             src="https://code.jquery.com/jquery-3.4.1.min.js"

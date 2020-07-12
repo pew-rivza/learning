@@ -43,5 +43,5 @@ document.addEventListener("DOMContentLoaded", function() {
         position -= width * count;
         position = Math.max( position, -width * (images.length - count) );
         gallery.style.left =  position+ 'px';
-    })
+    });
 });
