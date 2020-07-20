@@ -71,9 +71,9 @@
 #carousel ul img {
     width: 130px;
     height: 130px;
-    display: block; /* убираем пустое место вокруг картинок */
+    display: block;
 }
 
 #carousel ul li {
-    display: inline-block; /* убираем пустое место между элементами списка */
+    display: inline-block;
 }

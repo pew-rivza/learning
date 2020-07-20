@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let images = gallery.querySelectorAll('img');
 
     let position = 0;
-    let width = images[0].clientWidth;
+    let width = images[0].clientWidth + 1;
     let count = 3;
 
     let previousArrow = document.querySelector('#carousel .arrow.previous');
