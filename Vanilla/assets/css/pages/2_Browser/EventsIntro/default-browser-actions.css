@@ -1,0 +1,8 @@
+#preventing-links fieldset {
+    padding: 0 30px;
+    border: 1px var(--light-blue) solid;
+}
+
+#preventing-links fieldset a {
+    text-decoration: underline;
+}

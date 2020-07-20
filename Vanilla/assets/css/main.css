@@ -9,6 +9,19 @@
     --standart-blend-mode: multiply;
 }
 
+a, a:visited {
+    color: var(--light-blue);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8f93f2;
+}
+
+a:active {
+    color: var(--light-blue);
+}
+
 body {
     background: var(--ultra-dark-blue) url("/Vanilla/assets/img/facture-body.jpg");
     color: var(--light-blue);

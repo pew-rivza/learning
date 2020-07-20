@@ -27,19 +27,6 @@
     z-index: 1;
 }
 
-.chapter-container .sub-menu a, a:visited {
-    color: var(--light-blue);
-    text-decoration: none;
-}
-
-.chapter-container .sub-menu a:hover {
-    color: #8f93f2;
-}
-
-.chapter-container .sub-menu a:active {
-    color: var(--light-blue);
-}
-
 .chapter-container .sub-menu ul {
     list-style-type: none;
     margin: 0 20px;
