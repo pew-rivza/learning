@@ -9,6 +9,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 event.preventDefault();
             }
         });
+
+    document.querySelector('#linked-gallery #thumbs')
+        .addEventListener('click', function (event) {
+            let smallImage = event.target.closest('a');
+            if (!smallImage) return;
+
+            event.preventDefault();
+            let largeImage = document.getElementById('largeImg');
+            largeImage.setAttribute('src', smallImage.href);
+        });
 });
 
 function confirmLink(href) {
