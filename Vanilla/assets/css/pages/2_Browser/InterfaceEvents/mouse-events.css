@@ -1,0 +1,16 @@
+#file-structure .selected {
+    background: var(--ultra-dark-blue);
+}
+
+#file-structure  li {
+    cursor: pointer;
+    width: 250px;
+    padding: 10px 15px;
+    list-style-type: none;
+}
+
+#file-structure ul {
+    padding: 0;
+    border: 1px solid var(--light-blue);
+    width: fit-content;
+}

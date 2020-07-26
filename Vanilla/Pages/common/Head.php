@@ -26,6 +26,7 @@ ini_set('display_startup_errors', 1);
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/EventsIntro/browser-events.css">
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/EventsIntro/event-delegation.css">
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/EventsIntro/default-browser-actions.css">
+    <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/InterfaceEvents/mouse-events.css">
 
     <script
             src="https://code.jquery.com/jquery-3.4.1.min.js"
