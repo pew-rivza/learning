@@ -12,7 +12,7 @@
 }
 
 #house {
-    margin-top: 50px;
+    margin-top: 60px;
     width: 400px;
     border: 1px solid var(--light-blue);
     cursor: default;
@@ -21,13 +21,13 @@
 #house #roof {
     width: 0;
     height: 0;
-    border-left: 200px solid transparent;
-    border-right: 200px solid transparent;
-    border-bottom: 20px solid var(--light-blue);
-    margin-top: -20px;
+    border-left: 201px solid transparent;
+    border-right: 201px solid transparent;
+    border-bottom: 40px solid var(--light-blue);
+    margin-top: -40px;
 }
 
 #house p {
     text-align: justify;
-    margin: 10px 3px;
+    margin: 20px;
 }
