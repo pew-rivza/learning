@@ -31,4 +31,13 @@
 
         </div>
     </div>
+
+    <div class="task">
+        <div class="header">Задача 2</div>
+
+        <div class="header">Решение</div>
+        <div id="delay-tooltip" data-tooltip-content="Tooltip text">
+            Тестовый текст в тестовом блоке
+        </div>
+    </div>
 </div>

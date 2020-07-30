@@ -31,3 +31,10 @@
     text-align: justify;
     margin: 20px;
 }
+
+#delay-tooltip .tooltip {
+    position: absolute;
+    background: #eee;
+    border: 1px brown solid;
+    padding: 3px;
+}
