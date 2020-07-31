@@ -3,27 +3,30 @@ export class DelayTooltip {
         this.targetElement = options.element;
         this.over = options.over;
         this.out = options.out;
-        this.speed = 3;
-        this.prevPosition = 0;
+
+        this.prevPositionX = 0;
+        this.prevPositionY = 0;
+        this.distanceDelta = 3;
+
+        this.trackMouse = this.trackMouse.bind(this);
+
         this.init();
+
     }
 
     init() {
         this.create();
-        let tooltip = this.tooltip;
         let self = this;
 
-        this.targetElement.addEventListener('mousemove', function (event) {
-            if (Math.abs(event.clientX - self.prevPosition) <= self.speed) {
-                this.append(tooltip);
-                self.over();
-            } else {
-                self.prevPosition = event.clientX;
-            }
-        });
+        this.targetElement.addEventListener('mouseenter', function () {
+            self.targetElement.addEventListener('mousemove', self.trackMouse);
+            self.over();
+        })
+
 
         this.targetElement.addEventListener('mouseleave', function () {
-            tooltip.remove();
+            self.tooltip.remove();
+            self.targetElement.removeEventListener('mousemove', self.trackMouse);
             self.out();
         })
     }
@@ -33,13 +36,25 @@ export class DelayTooltip {
         this.tooltip.className = 'tooltip';
         this.tooltip.innerHTML = this.targetElement.dataset.tooltipContent;
     }
-}
 
-/* TODO:
-    1. проверять скорость не только по х, но и по у;
-    2. спозиционировать подсказку;
-    3. добавить функции over и out из аргументов;
-    4. отрефакторить self;
-    5. вынести листенеры в отдельные функции;
-    6. подумать, как вывести self.over один раз (ввести state).
- */
+    trackMouse(event) {
+        let dist = Math.sqrt(
+            Math.pow(event.clientX - this.prevPositionX, 2)
+            + Math.pow(event.clientY - this.prevPositionY, 2)
+        );
+
+        if (dist <= this.distanceDelta) {
+            this.add();
+        } else {
+            this.prevPositionX = event.clientX;
+            this.prevPositionY = event.clientY;
+        }
+    }
+
+    add () {
+        this.targetElement.append(this.tooltip);
+        this.tooltip.style.left = this.targetElement.getBoundingClientRect().left + 'px';
+        this.tooltip.style.top = (this.targetElement.getBoundingClientRect().top
+            - this.tooltip.offsetHeight - 10) + 'px';
+    }
+}

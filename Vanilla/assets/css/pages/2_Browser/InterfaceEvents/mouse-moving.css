@@ -32,8 +32,18 @@
     margin: 20px;
 }
 
+#delay-tooltip {
+    width: 300px;
+    height: 150px;
+    background: var(--light-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--ultra-dark-blue);
+}
+
 #delay-tooltip .tooltip {
-    position: absolute;
+    position: fixed;
     background: #eee;
     border: 1px brown solid;
     padding: 3px;

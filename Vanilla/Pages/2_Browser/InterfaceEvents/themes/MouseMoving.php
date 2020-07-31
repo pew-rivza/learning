@@ -37,7 +37,7 @@
 
         <div class="header">Решение</div>
         <div id="delay-tooltip" data-tooltip-content="Tooltip text">
-            Тестовый текст в тестовом блоке
+            Наведи на меня (см. консоль)
         </div>
     </div>
 </div>
