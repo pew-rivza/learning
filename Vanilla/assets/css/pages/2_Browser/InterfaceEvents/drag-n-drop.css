@@ -1,0 +1,206 @@
+#dog-with-hot-dog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 70px 0 70px;
+    position: relative;
+    height: 75px;
+}
+
+#dog {
+    position: relative;
+    height: 75px;
+    padding-left: 12px;
+    width: 185px;
+    cursor: pointer;
+}
+
+#dog #head #skull {
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    background: #65441a;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    z-index: 2;
+}
+
+#dog #head #skull #nose {
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    border-top-color: #65441a;
+    border-width: 35px 17.5px 0 17.5px;
+    position: absolute;
+    top: 100%;
+    z-index: 2;
+}
+
+#dog #head #skull #nose::after {
+    border: solid transparent;
+    border-top-color: #231704;
+    border-width: 9px 4px 0 4px;
+    position: absolute;
+    width: 0;
+    height: 0;
+    content: "";
+    top: -10px;
+    left: -4px;
+}
+
+#dog #head #skull #tongue {
+    width: 6px;
+    height: 10px;
+    background: #ff809d;
+    position: absolute;
+    z-index: 1;
+    top: 39px;
+    left: 20px;
+    transform: rotate(-45deg);
+    border-radius: 0 0 10px 10px;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+#dog #head #skull #tongue::after {
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: #ba5a75;
+}
+
+#dog #head #skull [id^=eye] {
+    width: 7px;
+    height: 7px;
+    background: #fff;
+    position: absolute;
+    border-radius: 50%;
+    top: 15px;
+    z-index: 3;
+}
+
+#dog #head #skull [id^=eye]::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    z-index: 4;
+    background: #231704;
+    border-radius: 50%;
+}
+
+#dog #head #skull #eye-left {
+    left: 8px;
+}
+
+#dog #head #skull #eye-right {
+    left: 20px;
+}
+
+#dog #head #skull [id^=ear] {
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    border-top-color: #503613;
+    z-index: 3;
+    position: absolute;
+    top: 2px;
+    border-width: 25px 10px 0 10px;
+}
+
+#dog #head #skull #ear-left {
+    left: -12px;
+}
+
+#dog #head #skull #ear-right {
+    left: 26px;
+}
+
+#dog #body #torso {
+    background: #503613;
+    width: 150px;
+    height: 30px;
+    border-radius: 100px;
+    position: absolute;
+    top: 28px;
+    left: 23px;
+    z-index: 1;
+}
+
+#dog #body #torso [id*=pow] {
+    width: 8px;
+    height: 13px;
+    background: #65441a;
+    position: absolute;
+    top: 30px;
+    z-index: 1;
+}
+
+#dog #body #torso [id*=pow]::after {
+    content: "";
+    width: 12px;
+    height: 7px;
+    border-radius: 50%;
+    background: #65441a;
+    position: absolute;
+    top: calc(100% - 4px);
+    left: -4px;
+}
+
+#dog #body #torso #front-pow-left {
+    left: 32px
+}
+
+#dog #body #torso #front-pow-right {
+    left: 15px;
+}
+
+#dog #body #torso #back-pow-left {
+    left: 123px;
+}
+
+#dog #body #torso #back-pow-right {
+    left: 105px;
+}
+
+#dog #body #torso #spot {
+    width: 10px;
+    height: 17px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 1px;
+}
+
+#dog #body #torso #tail {
+    position: absolute;
+    z-index: 1;
+    width: 4px;
+    height: 38px;
+    transform: rotate(45deg);
+    background: linear-gradient(#231704, #65441a);
+    left: 155px;
+    top: -29px;
+}
+
+#dog-with-hot-dog #hot-dog {
+    width: 150px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: #f9cb38;
+    position: absolute;
+    right: 0;
+}
+
+#dog-with-hot-dog #hot-dog #deepening {
+    width: 100%;
+    height: 30px;
+    background: #E6B01C;
+}
