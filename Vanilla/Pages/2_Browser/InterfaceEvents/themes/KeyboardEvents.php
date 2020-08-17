@@ -6,5 +6,7 @@
         <div class="header">Задача 1</div>
         Создать функцию runOnKeys(func, code1, code2, ... code_n), которая запускает
         func при одновременном нажатии клавиш с кодами code1, code2, …, code_n.
+        Запустить функцию alert("Oh yes! Love") при одновременном нажатии символов
+        "L", "O", "V", "E".
     </div>
 </div>
