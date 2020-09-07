@@ -12,6 +12,7 @@ include_once __DIR__ . "/../../common/Menu.php";
             <li><a href="#mouse-moving">Движение мыши</a></li>
             <li><a href="#drag-n-drop">Drag'n'Drop с событиями мыши</a></li>
             <li><a href="#keyboard-events">Клавиатура: keydown и keyup</a></li>
+            <li><a href="#scroll">Прокрутка</a></li>
         </ul>
     </div>
     <div class="content">
@@ -20,5 +21,6 @@ include_once __DIR__ . "/../../common/Menu.php";
         <? include_once __DIR__ . "/themes/MouseMoving.php"; ?>
         <? include_once __DIR__ . "/themes/DragNDrop.php"; ?>
         <? include_once __DIR__ . "/themes/KeyboardEvents.php"; ?>
+        <? include_once __DIR__ . "/themes/Scroll.php"; ?>
     </div>
 </div>

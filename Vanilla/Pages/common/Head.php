@@ -29,6 +29,7 @@ ini_set('display_startup_errors', 1);
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/InterfaceEvents/mouse-events.css">
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/InterfaceEvents/mouse-moving.css">
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/InterfaceEvents/drag-n-drop.css">
+    <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/InterfaceEvents/scroll.css">
 
     <script
             src="https://code.jquery.com/jquery-3.4.1.min.js"
