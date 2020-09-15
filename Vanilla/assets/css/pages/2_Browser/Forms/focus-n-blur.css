@@ -1,0 +1,107 @@
+#fake-input div,
+#fake-input textarea {
+    width: 300px;
+    height: 150px;
+    background: var(--light-blue);
+    color: var(--dark-blue);
+    padding: 10px;
+    cursor: text;
+    border: 1px solid var(--dark-blue);
+}
+
+#fake-input textarea {
+    width: 320px;
+    height: 170px;
+    font-family: unset;
+    font-size: unset;
+    font-weight: unset;
+    letter-spacing: unset;
+}
+
+#editable-table #bagua-table {
+    color: #000;
+}
+
+#editable-table th {
+    text-align: center;
+    font-weight: bold;
+    color: var(--light-blue);
+}
+
+#editable-table td {
+    width: 150px;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+#editable-table .nw {
+    background-color: #999;
+}
+
+#editable-table .n {
+    background-color: #03f;
+    color: #fff;
+}
+
+#editable-table .ne {
+    background-color: #ff6;
+}
+
+#editable-table .w {
+    background-color: #ff0;
+}
+
+#editable-table .c {
+    background-color: #60c;
+    color: #fff;
+}
+
+#editable-table .e {
+    background-color: #09f;
+    color: #fff;
+}
+
+#editable-table .sw {
+    background-color: #963;
+    color: #fff;
+}
+
+#editable-table .s {
+    background-color: #f60;
+    color: #fff;
+}
+
+#editable-table .se {
+    background-color: #0c3;
+    color: #fff;
+}
+
+#editable-table textarea {
+    width: 100%;
+    height: 109px;
+    resize: none;
+}
+
+#editable-table td.editable {
+    padding: 0;
+    position: relative;
+}
+
+#editable-table td.editable button {
+    color: #000;
+    background: #999;
+    padding: 5px;
+}
+
+#editable-table td.editable button + button {
+    margin-left: 5px;
+}
+
+#editable-table td.editable .textarea-buttons {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}

@@ -23,13 +23,17 @@ ini_set('display_startup_errors', 1);
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/1_Language/promises.css">
 
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/Document/styles-n-classes.css">
+
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/EventsIntro/browser-events.css">
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/EventsIntro/event-delegation.css">
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/EventsIntro/default-browser-actions.css">
+
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/InterfaceEvents/mouse-events.css">
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/InterfaceEvents/mouse-moving.css">
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/InterfaceEvents/drag-n-drop.css">
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/InterfaceEvents/scroll.css">
+
+    <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/Forms/focus-n-blur.css">
 
     <script
             src="https://code.jquery.com/jquery-3.4.1.min.js"
