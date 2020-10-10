@@ -19,6 +19,7 @@ ini_set('display_startup_errors', 1);
     <link rel="stylesheet" href="/Vanilla/assets/css/main.css">
     <link rel="stylesheet" href="/Vanilla/assets/css/menu.css">
     <link rel="stylesheet" href="/Vanilla/assets/css/chapter-page.css">
+    <link rel="stylesheet" href="/Vanilla/assets/css/modal.css">
 
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/1_Language/promises.css">
 
@@ -34,6 +35,8 @@ ini_set('display_startup_errors', 1);
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/InterfaceEvents/scroll.css">
 
     <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/Forms/focus-n-blur.css">
+    <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/Forms/form-elements-events.css">
+    <link rel="stylesheet" href="/Vanilla/assets/css/pages/2_Browser/Forms/submit.css">
 
     <script
             src="https://code.jquery.com/jquery-3.4.1.min.js"
