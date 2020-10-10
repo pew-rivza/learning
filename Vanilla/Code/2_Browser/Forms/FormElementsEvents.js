@@ -1,9 +1,7 @@
 'use strict';
 
-document.addEventListener("DOMContentLoaded",  function () {
-    updateDeposit();
-    document.forms.deposit.oninput = function () { updateDeposit(); };
-});
+updateDeposit();
+document.forms.deposit.oninput = function () { updateDeposit(); };
 
 function updateDeposit() {
     let form = document.forms.deposit;

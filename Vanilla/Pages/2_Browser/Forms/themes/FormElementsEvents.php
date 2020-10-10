@@ -1,4 +1,4 @@
-<script src="/Vanilla/Code/2_Browser/Forms/FormElementsEvents.js"></script>
+<script defer src="/Vanilla/Code/2_Browser/Forms/FormElementsEvents.js"></script>
 
 <div class="theme">
     <h3 id="form-elements-events">События: change, input, cut, copy, paste</h3>
