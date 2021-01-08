@@ -29,6 +29,42 @@
     width: 780px;
 }
 
+.menu-container .menu-items .item {
+    position: relative;
+    padding-bottom: 26px;
+    padding-top: 26px;
+}
+
+.menu-container .menu-items .item .sub-items {
+    position: absolute;
+    right: -15px;
+    top: calc(100% - 3px);
+    background: var(--dark-blue);
+    border: 1px solid var(--light-blue);
+    padding: 15px;
+    margin: 0;
+    width: 230px;
+    display: none;
+}
+
+.menu-container .menu-items .item:hover .sub-items {
+    display: block;
+}
+
+.menu-container .menu-items .item .sub-items li {
+    display: inline-block;
+    text-transform: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu-container .menu-items .item .sub-items li + li {
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px dashed var(--light-blue);
+}
+
 .menu-container .logo {
     align-items: flex-end;
     display: flex;
