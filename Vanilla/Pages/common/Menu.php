@@ -9,7 +9,7 @@
 <div class="menu-container">
     <div>
         <div class="logo">
-            <img src="/Vanilla/assets/img/logo.png" alt="">
+            <a href="/Vanilla"><img src="/Vanilla/assets/img/logo.png" alt=""></a>
         </div>
         <div class="menu-items">
             <div class="item">
@@ -34,7 +34,6 @@
                     <li><a href="/Vanilla/Pages/2_Browser/Forms/">Формы, элементы управления</a></li>
                 </ul>
             </div>
-            <div>Advanced</div>
         </div>
     </div>
 </div>
